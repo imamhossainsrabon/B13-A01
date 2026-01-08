@@ -4,6 +4,56 @@
     box-sizing: border-box;
 }
 
-h2 {
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    background-color: #fff;
+    padding: 16px;
+}
+
+header nav {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav img {
+    width: 100%;
+    max-width: 139px;
+    display: block;
+}
+
+header nav ul {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+header nav ul li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 152%;
+}
+
+header nav button {
+    border: none;
+    width: 100%;
+    max-width: 164px;
+    height: 100%;
+    padding: 14px;
+    border-radius: 4px;
+    background-color: #469165;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    font-family: "Inter", sans-serif;
 }
