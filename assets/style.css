@@ -10,6 +10,9 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+
+/* header */
+
 header {
     background-color: #fff;
     padding: 16px;
@@ -57,3 +60,107 @@ header nav button {
     line-height: 100%;
     font-family: "Inter", sans-serif;
 }
+
+
+/* header  */
+
+
+
+/* Hero Banner Section */
+
+#hero-banner {
+    padding: 115px 120px 180px;
+    background-image: url('./images/hero-bg.png');
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.hero-content .early {
+    display: flex;
+    gap: 6px;
+    width: 100%;
+    max-width: 229px;
+    background-color: #fff;
+    border-radius: 50px;
+    justify-content: center;
+    padding: 8px 12px;
+}
+
+.hero-content .early img {}
+
+.hero-content .early p {
+    color: #469165;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.hero-content h2 {
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h2 span {
+    color: #30B868;
+}
+
+.hero-content p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 130%;
+    width: 100%;
+    max-width: 645px;
+    text-align: center;
+}
+
+.hero-content .buttons {
+    display: flex;
+    width: 100%;
+    max-width: 465px;
+    gap: 16px;
+}
+
+
+.hero-content .buttons .btn1 {
+    border: none;
+    width: 100%;
+    max-width: 251px;
+    height: 100%;
+    padding: 14px;
+    border-radius: 4px;
+    background-color: #469165;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    font-family: "Inter", sans-serif;
+}
+
+.hero-content .buttons .btn2 {
+    border: 1px solid #fff;
+    width: 100%;
+    max-width: 198px;
+    height: 100%;
+    padding: 14px;
+    border-radius: 4px;
+    background-color: #46916500;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+/* Hero Banner Section */
