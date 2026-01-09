@@ -256,6 +256,8 @@ header nav button {
     font-size: 48px;
     font-weight: 700;
     text-transform: capitalize;
+    width: 100%;
+    max-width: 530px;
 }
 
 #second-brain .container .content p {
@@ -287,3 +289,55 @@ header nav button {
 }
 
 /* Second Brain Section */
+
+
+/* Ready Section */
+
+#ready {
+    padding: 0px 120px 120px;
+}
+
+#ready .container {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+}
+
+#ready .container h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#ready .container p {
+    margin-bottom: 8px;
+    width: 100%;
+    max-width: 548px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+}
+
+#ready .container button {
+    border: none;
+    width: 100%;
+    max-width: 251px;
+    height: 100%;
+    padding: 14px;
+    border-radius: 4px;
+    background-color: rgb(70, 145, 101);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    font-family: Inter, sans-serif;
+}
+
+/* Ready Section */
