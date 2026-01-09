@@ -78,9 +78,12 @@ header nav button {
     border-radius: 50px;
     justify-content: center;
     padding: 8px 12px;
+    align-items: center;
 }
 
-.hero-content .early img {}
+.hero-content .early img {
+    height: 16px;
+}
 
 .hero-content .early p {
     color: rgb(70, 145, 101);
@@ -210,3 +213,77 @@ header nav button {
     font-size: 16px;
     line-height: 20px;
 }
+
+
+/* Second Brain Section */
+
+#second-brain {
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+#second-brain .container {
+    width: 100%;
+    max-width: 1360px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+#second-brain .container .image {
+    width: 100%;
+    max-width: 600px;
+}
+
+#second-brain .container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+#second-brain .container .content span {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #30B868;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+#second-brain .container .content h2 {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+#second-brain .container .content p {
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#second-brain .container .content ul {
+    margin-top: 26px;
+}
+
+#second-brain .container .content ul li {
+    display: flex;
+    column-gap: 6px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+#second-brain .container .content ul li img {
+    width: 16px;
+    height: 16px;
+}
+
+#second-brain .container .content ul li p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+/* Second Brain Section */
